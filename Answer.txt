@@ -1,0 +1,5 @@
+Give one reason (there are many) OAuth tokens should not be granted in the main flow,assuming the user has sent in the correct credentials.
+
+- isolation of authorization server make it easier as security standpoint because it will stop the attacks like CSRF.seperating oauth from main follow allow server to verify the authenticity of user every client request while separating allows isolation of authorization.
+
+- it also put security net over embedded sql code in username that will allows the malicious user to access whole database even without password. if we separate authentication from resource, it wouldn’t be possible.

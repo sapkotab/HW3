@@ -1,0 +1,5 @@
+module.exports = {
+	"key1": {
+		"data": "54d05abae30222703545162e782f6ff3158cafffe48dfe748503d810ddb5b7c29306af6437a26c9361b751c66b311690"
+	}
+};
